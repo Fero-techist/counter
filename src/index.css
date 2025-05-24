@@ -91,9 +91,25 @@ body {
 
 /* Message styles */
 .message {
-  color: #6b7280;
   font-size: 14px;
   margin-top: 15px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+/* Zero message styles */
+.zero-message {
+  color: #6b7280;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+/* Limit message styles */
+.limit-message {
+  color: #059669;
+  background-color: #d1fae5;
+  border: 1px solid #a7f3d0;
+  font-weight: 500;
 }
 
 /* Responsive design */

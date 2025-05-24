@@ -40,7 +40,14 @@ export default function Component() {
           </button>
         </div>
 
-        {count === 0 && <p className="message">Counter cannot go below zero</p>}
+        {count === 0 && (
+          <p className="message zero-message">Counter cannot go below zero</p>
+        )}
+        {count >= 10 && (
+          <p className="message limit-message">
+            🎉 You've reached the limit! Great job!
+          </p>
+        )}
       </div>
     </div>
   );
